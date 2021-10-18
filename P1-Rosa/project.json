@@ -3,10 +3,14 @@
   "description": "Revature Project P1 - RoSA mark 2",
   "main": "Main.xaml",
   "dependencies": {
+    "AlpacaUiPathFormBuilderLib": "[1.0.0.78]",
+    "UiPath.Database.Activities": "[1.4.0]",
     "UiPath.Excel.Activities": "[2.9.5]",
+    "UiPath.Form.Activities": "[1.7.1]",
     "UiPath.Mail.Activities": "[1.9.5]",
     "UiPath.System.Activities": "[20.10.4]",
-    "UiPath.UIAutomation.Activities": "[20.10.9]"
+    "UiPath.UIAutomation.Activities": "[20.10.9]",
+    "UiPath.WebAPI.Activities": "[1.7.0]"
   },
   "webServices": [],
   "entitiesStores": [],
