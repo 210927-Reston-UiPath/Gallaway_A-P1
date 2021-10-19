@@ -4,6 +4,7 @@
   "main": "Main.xaml",
   "dependencies": {
     "AlpacaUiPathFormBuilderLib": "[1.0.0.78]",
+    "ConvertStringToStringCase.Activities": "[1.0.0]",
     "UiPath.Database.Activities": "[1.4.0]",
     "UiPath.Excel.Activities": "[2.9.5]",
     "UiPath.Form.Activities": "[1.7.1]",

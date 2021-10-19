@@ -95,6 +95,15 @@
           "lib/net40/ClosedXML.dll": {}
         }
       },
+      "ConvertStringToStringCase.Activities/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/_._": {}
+        },
+        "runtime": {
+          "lib/Convert_StringToCase.dll": {}
+        }
+      },
       "CsvHelper/2.13.5": {
         "type": "package",
         "compile": {
@@ -2223,6 +2232,17 @@
         "lib/net40/ClosedXML.dll",
         "lib/net40/ClosedXML.pdb",
         "lib/net40/ClosedXML.xml"
+      ]
+    },
+    "ConvertStringToStringCase.Activities/1.0.0": {
+      "sha512": "G1cySgCfzuw3/rr81E57nY5aYC/UjUjKZfCTW4nNMSdqwJAJKW8ZS56OwtlyCGtgrXZG0b8+Z6ikqz537EvhMA==",
+      "type": "package",
+      "path": "convertstringtostringcase.activities/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        "convertstringtostringcase.activities.1.0.0.nupkg.sha512",
+        "convertstringtostringcase.activities.nuspec",
+        "lib/Convert_StringToCase.dll"
       ]
     },
     "CsvHelper/2.13.5": {
@@ -4520,6 +4540,7 @@
     "": [],
     ".NETFramework,Version=v4.6.1": [
       "AlpacaUiPathFormBuilderLib >= 1.0.0.78 <= 1.0.0.78",
+      "ConvertStringToStringCase.Activities >= 1.0.0 <= 1.0.0",
       "UiPath.Database.Activities >= 1.4.0 <= 1.4.0",
       "UiPath.Excel.Activities >= 2.9.5 <= 2.9.5",
       "UiPath.Form.Activities >= 1.7.1 <= 1.7.1",
@@ -4547,6 +4568,11 @@
             "include": "Runtime",
             "target": "Package",
             "version": "[1.0.0.78, 1.0.0.78]"
+          },
+          "ConvertStringToStringCase.Activities": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[1.0.0, 1.0.0]"
           },
           "UiPath.Database.Activities": {
             "include": "Runtime",
