@@ -10,6 +10,10 @@ Store Front was built based heavily on code from class
     can only buy items hard coded in Data Table
         will update once 'add order' has been updated
 
+# 10/22/2021
+    added database for 'add client' and 'import client'
+        all clients are now in DB table clients
+
 
 
 
