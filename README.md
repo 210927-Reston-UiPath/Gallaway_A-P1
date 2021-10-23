@@ -14,6 +14,12 @@ Store Front was built based heavily on code from class
     added database for 'add client' and 'import client'
         all clients are now in DB table clients
 
+# 10/23/2021
+    updated shopping feature
+        buys itmes in Shopping List
+        only buys from "Little Rhody Store"
+        Shopping List still in Excel
+
 
 
 
