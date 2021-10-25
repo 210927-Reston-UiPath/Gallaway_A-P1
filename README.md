@@ -11,7 +11,7 @@ Store Front was built based heavily on code from class
         will update once 'add order' has been updated
 
 # 10/22/2021
-    added database for 'add client' and 'import client'
+    created SQL table for 'add client' and 'import client'
         all clients are now in DB table clients
 
 # 10/23/2021
@@ -19,6 +19,14 @@ Store Front was built based heavily on code from class
         buys itmes in Shopping List
         only buys from "Little Rhody Store"
         Shopping List still in Excel
+    removed unnecessary files
+
+# 10/24/2021
+    created SQL table for shopping list
+    updated website with subtotal and total feature
+    
+
+    
 
 
 

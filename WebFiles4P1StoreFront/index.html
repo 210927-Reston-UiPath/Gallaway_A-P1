@@ -29,19 +29,19 @@
                         <th>Quantity</th>
                     </thead>
                     <tbody>
-                        <tr id="DelsFrozenLemonaide">
-                            <td>Del's Frozen Lemonaide</td>
-                            <td class="price">$4.00</td>
-                            <td>Del's Famous Frozen Lemonaide</td>
+                        <tr id="CoffeeMilk">
+                            <td>Coffee Milk</td>
+                            <td class="price">$2.00</td>
+                            <td>Coffee flavored milk</td>
                             <td><input type="number" name="" id="" class="form-control quantity"></td>
-                            <td><input type="button" value="Buy" class="btn btn-info" onclick="buy('DelsFrozenLemonaide')"></td>
+                            <td><input type="button" value="Buy" class="btn btn-info" onclick="buy('Coffee Milk')"></td>
                         </tr>
-                        <tr id="YachtClubSoda">
-                            <td>Yacht Club Soda</td>
+                        <tr id="YachtSoda">
+                            <td>Yacht Soda</td>
                             <td class="price">$36.00</td>
                             <td>12 pack (3 of each) of Rhody Red, Cola, Root Beer, and Black Cherry</td>
                             <td><input type="number" name="" id="" class="form-control quantity"></td>
-                            <td><input type="button" value="Buy" class="btn btn-info" onclick="buy('YachtClubSoda')">
+                            <td><input type="button" value="Buy" class="btn btn-info" onclick="buy('Yacht Soda')">
                             </td>
                         </tr>
                         <tr id="Quohogs">
@@ -52,12 +52,12 @@
                             <td><input type="button" value="Buy" class="btn btn-info" onclick="buy('Quohogs')">
                             </td>
                         </tr>
-                        <tr id="WickedBigRIKit">
-                            <td>Wicked Big RI Kit</td>
+                        <tr id="WickedBig">
+                            <td>Wicked Big</td>
                             <td class="price">$100.00</td>
                             <td>Iggy's chopped clams, clam cake & fritter mix, fish breading, doughboy mix, NE clam chowder, Del's pint glass, Iggy T-Shirt</td>
                             <td><input type="number" name="" id="" class="form-control quantity"></td>
-                            <td><input type="button" value="Buy" class="btn btn-info" onclick="buy('WickedBigRIKit')"></td>
+                            <td><input type="button" value="Buy" class="btn btn-info" onclick="buy('Wicked Big')"></td>
                         </tr>
                     </tbody>
                 </table>
@@ -69,11 +69,13 @@
                         <th>Item</th>
                         <th>Price</th>
                         <th>Quantity</th>
+                        <th>Subtotal</th>
                     </thead>
                     <tbody>
 
                     </tbody>
                 </table>
+                <p id="total"></p>               
                 <button class="btn btn-secondary" onclick="checkout()">Checkout</button>
             </div>
         </div>

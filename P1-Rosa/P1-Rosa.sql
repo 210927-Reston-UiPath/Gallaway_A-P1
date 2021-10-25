@@ -1,6 +1,6 @@
 -- P1-Rosa Database
 
--- Client Database
+-- Client
 create table clients
 (
     customerID int not null,
@@ -17,3 +17,23 @@ create table clients
 
 select * from clients;
 --drop table clients;
+
+-- Shopping List
+create table shoppingList
+(
+    item varchar(100) not null,
+    quantity int not null,
+    frequency varchar(1) not null,
+    customerID int not null,
+    listID int not null,
+    Primary Key (listID),
+    Foreign Key (customerID) References clients(customerID)
+);
+
+--insert into shoppingList (item, quantity, frequency, customerID, listID)
+--values
+--('Coffee Milk', 3, 'w', 127508, 41583983),
+--('Quohogs', 2, 'w', 127508, 13812604);
+
+select * from shoppingList;
+--drop table shoppingList;
