@@ -23,7 +23,15 @@ Store Front was built based heavily on code from class
 
 # 10/24/2021
     created SQL table for shopping list
+        not yet implemented due to debugging
     updated website with subtotal and total feature
+    added exception handling
+
+# 10/25/2021
+    added close application to Buy From Little Rhody
+    added buy Pega beverages and seasonings
+    added other buy from pega features
+        looking for one that actually works every time
     
 
     
