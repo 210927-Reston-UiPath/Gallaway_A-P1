@@ -24,7 +24,7 @@ Store Front was built based heavily on code from class
 # 10/24/2021
     created SQL table for shopping list
     updated website with subtotal and total feature
-    
+    added exception handling
 
     
 
