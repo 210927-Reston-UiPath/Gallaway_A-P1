@@ -26,6 +26,7 @@ Store Front was built based heavily on code from class
         not yet implemented due to debugging
     updated website with subtotal and total feature
     added exception handling
+<<<<<<< HEAD
 
 # 10/25/2021
     added close application to Buy From Little Rhody
@@ -33,6 +34,8 @@ Store Front was built based heavily on code from class
     added other buy from pega features
         looking for one that actually works every time
     
+=======
+>>>>>>> 515516d3045fef0a30cbd6d8fdaa0eed629165d8
 
     
 
