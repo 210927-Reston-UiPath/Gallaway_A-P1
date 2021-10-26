@@ -39,6 +39,28 @@ Store Front was built based heavily on code from class
         create expense reports
         pull everything together
 
+# 10/26/2021
+    added try/catch to deal with 404 page
+    added navigation from Pega home to order page
+    added shop at Pega
+        pulls the various parts of Pega together
+            Pega Login
+            Pega navigate to order entry
+            buy many products from Pega
+    added Go Shopping
+        pulls together both sites
+    added feature to get subtotal from Little Rhody
+    added feature to get total from Little Rhody
+    added feature to get total from Pega
+    added feature to get order # from Pega
+    added feature to get subtotal from Pega (thanks Cy)
+    TO DO:
+        implement SQL
+        finish expense report
+        pull everything together
+
+
+
 
     
 
