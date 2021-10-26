@@ -26,16 +26,19 @@ Store Front was built based heavily on code from class
         not yet implemented due to debugging
     updated website with subtotal and total feature
     added exception handling
-<<<<<<< HEAD
 
 # 10/25/2021
-    added close application to Buy From Little Rhody
-    added buy Pega beverages and seasonings
-    added other buy from pega features
-        looking for one that actually works every time
-    
-=======
->>>>>>> 515516d3045fef0a30cbd6d8fdaa0eed629165d8
+    can now buy multiple items from pega
+        FINALLY!!
+    file maintenance and clean up
+        removed dead files
+        moved live files into folders
+    TO DO:
+        finish buy from pega
+        implement SQL
+        create expense reports
+        pull everything together
+
 
     
 
