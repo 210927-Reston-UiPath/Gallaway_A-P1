@@ -59,6 +59,15 @@ Store Front was built based heavily on code from class
         finish expense report
         pull everything together
 
+# 10/25/2021
+    added SQL support for shopping list
+        UNTESTED
+    added SQL support for buy from Little Rhody
+        UNTESTED
+        DISABLED
+    added SQL support for Little Rhody Expense report
+        TABLE NOT YET DEFINED
+
 
 
 
