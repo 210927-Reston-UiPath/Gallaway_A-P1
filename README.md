@@ -109,6 +109,8 @@ Store Front was built based heavily on code from class
     added powerpoint for presentation
     ready for P1 presentation
         not really, but...
+    minor pre presentation maintenance
+    post presentation push
     
     
 
