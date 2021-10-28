@@ -96,6 +96,19 @@ Store Front was built based heavily on code from class
         check and verify client Id
         create menu to start (P0 style)
         add email support
+
+# 10/28/2021
+    found & fixed glitch in Pega expense report date
+    can now report items not found
+
+# 10/28/2021
+    added Expense Reporting
+    added Item Not Found Reporting
+    added main menu function
+    added function to create client expense sheet on add client
+    added powerpoint for presentation
+    ready for P1 presentation
+        not really, but...
     
     
 

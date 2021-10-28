@@ -88,3 +88,64 @@ select * from totalReport;
 select * from clients, shoppingList;
 select * from shoppingList;
 
+select * from shoppingList;
+select * from expenseReport;
+select * from totalReport;
+
+select * from totalReport
+where shopDate = '2021/10/27';
+
+-- Items Not Found
+select shoppingList.customerId, 
+shoppingList.item, shoppingList.quantity
+from shoppingList
+left join expenseReport
+on shoppinglist.item = expenseReport.item
+where expenseReport.item is null;
+
+select clients.customerID
+from clients
+left join expenseReport
+on clients.customerID = expenseReport.customerID
+where expenseReport.customerID is not null;
+
+
+-- Clients => Shopping List
+select clients.firstName, clients.lastName,
+shoppingList.item, shoppingList.quantity
+from clients
+left join shoppingList
+on clients.customerID = shoppingList.customerID
+where shoppingList.item is not null;
+
+
+
+
+-- Expense Reporting
+select expenseReport.shopDate, 
+shoppingList.customerID, shoppingList.item,
+expenseReport.quantity, expenseReport.price,
+expenseReport.orderId,
+clients.firstName, clients.lastName, clients.email
+from shoppingList
+left join expenseReport
+on shoppingList.item = expenseReport.item
+left join clients
+on clients.customerID = shoppingList.customerID
+where expenseReport.item is not null
+AND clients.customerID is not null
+AND shoppingList.customerID = 127508
+
+
+
+
+
+select * from clients;
+select * from shoppingList;
+
+
+
+
+
+
+
