@@ -68,7 +68,36 @@ Store Front was built based heavily on code from class
     added SQL support for Little Rhody Expense report
         TABLE NOT YET DEFINED
 
-
+# 10/27/2021
+    tested SQL support for shopping list
+        IT WORKS!!
+    tested SQL support for expense report
+        IT WORKS!!
+    implemented SQL support for add order
+    implemented SQL support for Little Rhody
+        shopping list
+        expense reporting (line item subtotal)
+        total reporting
+    Little Rhody is COMPLETE
+    added subtotal expense reporting for Pega
+    added total expense reporting for Pega
+    implemented SQL support for Pega
+        shopping list
+        Expense Report
+            subtotal
+            total
+    weird glitch in Pega date
+        2021,10,27 vs. 2021/10/27
+        glitch only in expense gathering (subtotal)
+    other than reported glitch:
+        need to finish expense reporting
+        need to report on items not found
+    want to do's:
+        check and verify client Id
+        create menu to start (P0 style)
+        add email support
+    
+    
 
 
     
